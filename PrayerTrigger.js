@@ -1,6 +1,5 @@
 
-<script>
-  
+
 var http = require('http');
 var url = require('url');
 
@@ -36,5 +35,5 @@ function triggerIftttMakerWebhook(event, key, value1, value2, value3) {
   post_req.end();
 }
 
-triggerIftttMakerWebhook('prayer_call', key);
-</script>
+
+
